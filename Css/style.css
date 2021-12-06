@@ -1,0 +1,41 @@
+body {
+    font-family: Arial;
+    background-color: #777;
+}
+.tab {
+  overflow: hidden;
+  border: 1px solid #ccc;
+  background-color: #f1f1f1;
+  margin-top: 50px;
+}
+.tab button {
+  background-color: #f1f1f1;
+  border: none;
+  padding: 14px 16px;
+  transition: 0.6s;
+  font-size: 15px;
+}
+.tab button:hover {
+  background-color: #ddd;
+}
+.tab button.active {
+  background-color: #ccc;
+}
+.linkContent {
+  display: none;
+  padding: 6px 12px;
+  border: 1px solid #ccc;
+  border: none;
+}
+.tab{
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+
+
+
+
+
+
